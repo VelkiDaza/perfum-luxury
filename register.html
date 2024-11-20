@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfum luxury Login Page | Registro</title>
+    <link rel="stylesheet" href="./css/login.css">
+  </head>
+  <body>
+    <div class="container flex">
+      <div class="perfum-page flex">
+        <form id="registerForm">
+          <input type="text" id="firstName" placeholder="Nombres" required>
+          <input type="text" id="lastName" placeholder="Apellido" required>
+          <input type="email" id="email" placeholder="Correo electrónico" required>
+          <input type="password" id="password" placeholder="Contraseña" required>
+          
+          <select id="gender" required>
+            <option value="" disabled selected>Género</option>
+            <option value="masculino">Masculino</option>
+            <option value="femenino">Femenino</option>
+          </select>
+
+          <div class="link">
+            <button type="submit" class="login">Registrar</button>
+          </div>
+          <hr>
+          <div class="button">
+            <a href="./login.html">Iniciar sesión</a>
+          </div>
+        </form>
+
+        <div class="text">
+          <h1>👑 Perfum Luxury</h1>
+          <p>Registrate y conoce los beneficios</p>
+          <p>y descuentos con nosotros.</p>
+        </div>
+      </div>
+    </div>
+
+    <script src="./js/register.js"></script>
+  </body>
+</html>
